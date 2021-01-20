@@ -12,6 +12,7 @@ jobs:
       id: shell
       uses: vmactions/freebsd-vm@v0.0.9
       with:
+        sync: rsync
         run: |
           pwd
           ls -lah
